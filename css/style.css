@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&family=Manrope&family=Noto+Sans+KR:wght@400;500&display=swap");
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+address,
+em,
+i {
+  font-style: normal;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.en {
+  font-family: "kanit", sans-serif;
+  font-weight: 600;
+}
+
+.en2 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  font-family: "MonumentGrotesk", sans-serif;
+  font-size: 0.85vw;
+  font-weight: 400;
+}
+
+.wrap {
+  position: relative;
+  overflow: hidden;
+  background-color: #111606;
+  margin: 0 auto;
+}
+.wrap img {
+  filter: brightness(50%);
+}
+.wrap .visual {
+  position: relative;
+  overflow: hidden;
+}
+.wrap .visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wrap .visual h1 {
+  opacity: 0;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 9vw;
+  line-height: 1;
+  color: #fff;
+  width: 60%;
+  font-weight: 400;
+}
+.wrap .visual h1 span {
+  display: block;
+  color: transparent;
+  letter-spacing: -2px;
+  font-size: 5vw;
+  -webkit-text-stroke: 2px #b1dd40;
+}
