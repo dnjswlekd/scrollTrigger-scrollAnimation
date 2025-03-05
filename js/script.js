@@ -29,6 +29,20 @@ $(function () {
         start: '50% 100%',
         toggleClass: { targets: imgBox, className: 'active' },
         scrub: 1,
+        markers: false,
+      },
+    });
+  });
+
+  // text-box
+  gsap.utils.toArray('.text-box').forEach(function (textBox) {
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: textBox,
+        start: '50% 80%',
+        end: '100% 0%',
+        toggleClass: { targets: textBox, className: 'active' },
+        scrub: 1,
         markers: true,
       },
     });
